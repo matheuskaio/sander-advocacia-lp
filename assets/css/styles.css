@@ -401,7 +401,8 @@ details summary {
 
 .form_contacto {
     width: 600px;
-    background: #FFC40099;
+    background: #111;
+    /* background: #FFC40099; */
     padding: 32px;
     border-radius: 8px 8px 0 0;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
@@ -411,7 +412,7 @@ details summary {
 }
 
 .form_titulo {
-    font-size: 18px;
+    font-size: 28px;
     font-family: Metropolis;
     font-weight: 500;
     margin-bottom: 20px;
@@ -437,7 +438,8 @@ details summary {
     position: absolute;
 }
 
-.form_contacto input {
+.form_contacto input,
+.form_contacto textarea {
     font-family: Metropolis;
     padding: 5px 15px;
     height: 40px;
@@ -447,7 +449,17 @@ details summary {
     outline: none;
     border: 1px solid transparent;
     margin-bottom: 10px;
-    color: #000;
+    color: #292929;
+    background: #292929;
+}
+
+.form_contacto textarea {
+    margin-bottom: 30px;
+    min-height: 40px;
+    height: 78px;
+    max-height: 250px;
+    max-width: 536px;
+    min-width: 536px;
 }
 
 .form_contacto input:focus {
