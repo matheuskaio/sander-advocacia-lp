@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>SandreAdvocacia</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/styles.css'>
+</head>
+
+<body>
+    <header class="header">
+        <img src="assets/images/logo-light.png" alt="">
+    </header>
+
+    <section class="chamada">
+        <div class="container">
+            <div class="chamada-esquerda">
+                <h1>TUDO QUE VOCÊ PRECISA SABER SOBRE INVENTÁRIO.</h1>
+                <h2>COMO SE PREPARAR E AGIR DE FORMA CORRETA QUANDO ELE FOR NECESSÁRIO.</h2>
+            </div>
+            <div class="chamada-direita">
+                <div class="caixa">
+                    <h3>NÃO FIQUE COM DÚVIDAS!</h3>
+                    <h1>CONVERSE AGORA COM QUEM PODE TE AJUDAR!</h1>
+                    <button data-modal='abrir' class="abrir-modal-agendar">AGENDAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="chamada-direita-extra">
+        <div class="container">
+            <div>
+                <h3>NÃO FIQUE COM DÚVIDAS!</h3>
+                <h1>CONVERSE AGORA COM QUEM PODE TE AJUDAR!</h1>
+            </div>
+            <button data-modal='abrir' class="abrir-modal-agendar">AGENDAR</button>
+        </div>
+    </section>
+    <section class="inventario">
+        <div class="container">
+            <div class="inventario-esquerda">
+                <h4>O que é inventário?</h4>
+                <p>Inventário é a forma de realizar a partilha dos bens deixados por alguém que faleceu. Ele pode ser realizado na via judicial ou via cartório, sem a necessidade de um processo. O inventário é o procedimento cabível para transferência de
+                    propriedade de imóveis, levantamento de valores em banco e divisão de outros bens deixados pelo de cujus. É obrigatório em qualquer tipo de inventário a participação de um advogado, seja ele particular ou público.</p>
+            </div>
+            <div class="inventario-direita">
+                <video src="assets/videos/video1.mp4" controls></video>
+            </div>
+        </div>
+    </section>
+    <section class="sobre">
+        <div class="container">
+            <div class="sobre-conteudo">
+                <p>O Dr. Pedro Sandre, sócio nominal e fundador da Sandre Advocacia, possui inscrição na OAB/SP sob o nº 425.436 e no CRC/SP. Graduou-se com certificação de honra ao mérito pelas Faculdades Metropolitanas Unidas. Pós-graduado em processo
+                    civil e pós-graduando em LGPD, é palestrante, possui experiência internacional e anos de prática jurídica que lhe permitem de forma assertiva e eficaz em demandas diversificadas em defesa dos direitos de seus clientes.</p>
+                <img src="assets/images/pedro-perfil.jpg" alt="Dr. Pedro Sandre">
+            </div>
+        </div>
+        <div class="atendimento">
+            <div class="container">
+                <div class="atendimento-conteudo">
+                    <p>Solicite agora seu atendimento.</p>
+                    <button data-modal='abrir'>AGENDAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="perguntas-frequentes">
+        <div class="titulo">
+            <p>PERGUNTAS FREQUÊNTES</p>
+        </div>
+    </section>
+    <section class="perguntas">
+
+        <div class="container">
+            <div class="lista-perguntas">
+                <!-- <div class="pergunta"> -->
+                <details class="collapse">
+                    <summary class="title">Posso fazer o inventário no cartório? </summary>
+                    <div class="description">Sim, é possível realizar o inventário de maneira rápida e sem processo em um cartório de notas, desde que preenchidos alguns requisitos como inexistência de testamento, ausência de filhos menores e todos os herdeiros precisam estar
+                        de acordo com a forma com a qual os bens serão partilhados.</div>
+                </details>
+                <details class="collapse">
+                    <summary class="title">Posso fazer o inventário no cartório?</summary>
+                    <div class="description">Sim, é possível realizar o inventário de maneira rápida e sem processo em um cartório de notas, desde que preenchidos alguns requisitos como inexistência de testamento, ausência de filhos menores e todos os herdeiros precisam estar
+                        de acordo com a forma com a qual os bens serão partilhados.</div>
+                </details>
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="sobre">
+        <div class="container">
+            <div class="sobre-conteudo">
+                <p>O Dr. Pedro Sandre, sócio nominal e fundador da Sandre Advocacia, possui inscrição na OAB/SP sob o nº 425.436 e no CRC/SP. Graduou-se com certificação de honra ao mérito pelas Faculdades Metropolitanas Unidas. Pós-graduado em processo
+                    civil e pós-graduando em LGPD, é palestrante, possui experiência internacional e anos de prática jurídica que lhe permitem de forma assertiva e eficaz em demandas diversificadas em defesa dos direitos de seus clientes.</p>
+                <img src="assets/images/pedro-perfil.jpg" alt="Dr. Pedro Sandre">
+            </div>
+        </div>
+        <div class="atendimento">
+            <div class="container">
+                <div class="atendimento-conteudo">
+                    <p>Solicite agora seu atendimento.</p>
+                    <button data-modal='abrir'>AGENDAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="modal-conatiner">
+        <div class="modal">
+            <form action="" class="form_contacto">
+                <h3 class="form_titulo">Agendamento de Atendimento</h3>
+
+                <input type="text" name="nome" id="nome" placeholder="Informe seu nome" required />
+                <input type="email" name="email" id="email" placeholder="Informe seu melhor e-mail" required />
+                <input type="text" name="telefone" id="telefone" placeholder="Informe seu telefone" required />
+
+                <button data-modal='abrir' id="botao-cadastrar-modal" class="btn-modal">Agendar</button>
+            </form>
+        </div>
+    </section>
+</body>
+<script src='assets/js/script.js'></script>
+
+</html>
