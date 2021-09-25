@@ -511,7 +511,32 @@ details summary {
     margin: 10px auto 0 auto;
 }
 
+
+/* btn whatsapp */
+
+.btn-whatsapp {
+    background: linear-gradient(218.68deg, #5ad264 14.04%, #2eb841 88.09%);
+    color: #fff;
+    padding: 15px 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2000;
+    border-radius: 30px;
+}
+
+.btn-whatsapp:hover {
+    color: #fff;
+    box-shadow: 0 4px 4px 0 #1336163f;
+}
+
+.web-app {
+    display: none;
+}
+
 footer {
+    display: flex;
+    justify-content: center;
     background: #292929;
 }
 
@@ -710,6 +735,20 @@ footer .container span i {
         width: 100%;
         /* margin-top: 20px; */
     }
+    .btn-whatsapp {
+        font-size: 40px;
+        padding: 10px 15px;
+        border-radius: 50%;
+    }
+    .web-whats {
+        display: none;
+    }
+    .web-app {
+        display: block;
+    }
+    .btn-whatsapp span {
+        display: none;
+    }
 }
 
 @media (max-width: 650px) {
@@ -795,5 +834,16 @@ footer .container span i {
     }
     .form_contacto {
         width: 400px;
+    }
+    .logo-footer {
+        max-width: 250px;
+        /* width: 400px; */
+    }
+    /* footer .container span {
+        margin-top: 10px;
+    } */
+    footer .container span,
+    footer .container span a {
+        font-size: 12px;
     }
 }
